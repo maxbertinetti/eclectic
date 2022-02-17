@@ -20,7 +20,7 @@
 <!-- Status -->
 
 <h4 align="center">
-	🚧  Eclectic 🚀 Under construction...  🚧
+	🚧  Eclectic 🚀 Under construction...Docs arrives soon  🚧
 </h4>
 
 <hr>
@@ -45,7 +45,7 @@ It's a WSGI framework and can be used with any WSGI application server such as [
 ## :sparkles: Features ##
 
 :heavy_check_mark: WSGI compatibility\
-:heavy_check_mark: Flask and Django style routing.
+:heavy_check_mark: Flask and Django style routing.\
 :heavy_check_mark: Json / HTML / Text Responses\
 :heavy_check_mark: Templates\
 :heavy_check_mark: Static Files\
