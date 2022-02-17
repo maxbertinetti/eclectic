@@ -51,7 +51,7 @@ It's a WSGI framework and can be used with any WSGI application server such as [
 :heavy_check_mark: Static Files\
 :heavy_check_mark: Middleware\
 :heavy_check_mark: Test\
-:heavy_check_mark: ORM\
+:heavy_check_mark: ORM
 
 ## :rocket: Technologies ##
 
@@ -64,10 +64,6 @@ The following tools were used in this project:
 - [Pytest](https://pypi.org/project/pytest/)
 - [Requests](https://pypi.org/project/requests/)
 - [Requests-wsgi-adapter](https://pypi.org/project/requests-wsgi-adapter/)
-
-## :white_check_mark: Requirements ##
-
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
 ## :checkered_flag: Installation ##
 
