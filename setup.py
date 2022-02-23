@@ -11,7 +11,7 @@ DESCRIPTION = "Eclectic Python Web Framework built by Eclecticlly."
 EMAIL = "max@eclecticlly.com"
 AUTHOR = "Massimiliano Bertinetti"
 REQUIRES_PYTHON = ">=3.9.0"
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 
 REQUIRED = [
     "Jinja2==3.0.3",

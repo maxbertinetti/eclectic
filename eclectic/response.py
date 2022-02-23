@@ -10,15 +10,20 @@ class Response:
         self.json = None
         self.html = None
         self.text = None
+        self.redirect = None
+        self.header_list = None
         self.content_type = None
-        self.body = b''
+        self.body = b""
         self.status_code = 200
 
     def __call__(self, environ, start_response):
         self.set_body_and_content_type()
 
         response = WebObResponse(
-            body=self.body, content_type=self.content_type, status=self.status_code
+            body=self.body,
+            content_type=self.content_type,
+            status=self.status_code,
+            headerlist=self.header_list,
         )
         return response(environ, start_response)
 
@@ -34,3 +39,7 @@ class Response:
         if self.text is not None:
             self.body = self.text
             self.content_type = "text/plain"
+
+        if self.redirect is not None:
+            self.status_code = 307
+            self.header_list = [("Location", self.redirect)]
